@@ -15,12 +15,12 @@
 - **netflix_analysis.py:** Python script for data extraction, cleaning, and visualization.
 - **netflix_ratings_distribution.R:** R script for visualizing ratings distribution.
 - **netflix_data.zip:** Zip file containing the raw Netflix data.
-- **Netflix_shows_movies.csv:** Extracted and cleaned CSV file used for analysis.
+- **Netflix_shows_movies.csv:** Extracted CSV file used for analysis.
 -------------------------------------------------
 
 # Order of Execution:
 
-- Execute netflix_analysis.py in Python first to extract, clean, and prepare the data.
+- Execute netflix_analysis.py in Python first to extract, clean, prepare the data, and visualize.
 - Then, execute netflix_ratings_distribution.R in R to visualize the ratings distribution.
 -----------------------------------------------
 
