@@ -12,10 +12,10 @@
 
 # Files:
 
-**netflix_analysis.py:** Python script for data extraction, cleaning, and visualization.
-**netflix_ratings_distribution.R:** R script for visualizing ratings distribution.
-**netflix_data.zip:** Zip file containing the raw Netflix data.
-**Netflix_shows_movies.csv:** Extracted and cleaned CSV file used for analysis.
+- **netflix_analysis.py:** Python script for data extraction, cleaning, and visualization.
+- **netflix_ratings_distribution.R:** R script for visualizing ratings distribution.
+- **netflix_data.zip:** Zip file containing the raw Netflix data.
+- **Netflix_shows_movies.csv:** Extracted and cleaned CSV file used for analysis.
 -------------------------------------------------
 
 # Order of Execution:
@@ -24,7 +24,7 @@
 - Then, execute netflix_ratings_distribution.R in R to visualize the ratings distribution.
 -----------------------------------------------
 
-#Requirements:
+# Requirements:
 
 - Python 3.x with pandas, seaborn, and matplotlib installed.
 - R with ggplot2 and dplyr libraries installed.
@@ -52,7 +52,7 @@ Fills missing values in 'director', 'cast', 'country', 'rating', and 'date_added
 Visualizes ratings distribution using ggplot2 in R.
 ---------------------------------------------------------
 
-#Notes:
+# Notes:
 
 - Ensure all files (netflix_analysis.py, netflix_ratings_distribution.R, netflix_data.zip, and Netflix_shows_movies.csv) are in the same directory/folder before running the scripts.
 - The extracted CSV file (Netflix_shows_movies.csv) is generated from netflix_analysis.py and used as input for netflix_ratings_distribution.R.
